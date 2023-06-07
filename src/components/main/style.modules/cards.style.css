@@ -1,0 +1,37 @@
+.cardBlock {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 900px;
+    margin-left: 50px;
+
+}
+
+.card {
+    width: 240px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(0, 94, 255);
+    color: aliceblue;
+    width: 240px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.cardImg {
+    height: 280px;
+}
+
+.discount{
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+    margin-left: 30px;
+}
